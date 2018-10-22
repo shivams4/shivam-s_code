@@ -4,5 +4,5 @@ compiler:
 - clang
 - gcc
 script:
-- gcc -o test code_1.c // we can use gcc instead of clang too
-- ./test 
+- gcc -o code_1 code_1.c // we can use gcc instead of clang too
+- ./code_1
